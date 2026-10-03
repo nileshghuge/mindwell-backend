@@ -41,4 +41,4 @@ const journalSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Journal", journalSchema);
+module.exports = mongoose.model("journal", journalSchema);
